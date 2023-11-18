@@ -68,7 +68,11 @@ foodElement.innerHTML = favoriteFoods.join('<br>');
 const newFavoriteFood = "Peruvian Chicken"; 
 favoriteFoods.push(newFavoriteFood);
 foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
-favoriteFoods.pop();
+favoriteFoods.shift();
+foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+favoriteFoods.pop
+foodElement.innerHTML += `<br>${favoriteFoods.join('<br>')}`;
+
 
 
 
