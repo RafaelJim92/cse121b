@@ -58,4 +58,4 @@ getTemples();
 /* Event Listener */
 document.querySelector("#sortBy").addEventListener("change", () => { sortBy(templeList); });
 
-/* just a comment to fix something >< hello *\
+
