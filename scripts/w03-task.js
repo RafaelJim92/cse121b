@@ -74,7 +74,7 @@ function divide(number1, number2) {
 
 /* Decision Structure */
 
-document.querySelector('#getTotalDueButton').addEventListener('click', function() {
+document.querySelector('#getTotal').addEventListener('click', function() {
     const subtotalValue = parseFloat(document.querySelector('#subtotal').value);
 
     const membershipCheckbox = document.querySelector('#member');
